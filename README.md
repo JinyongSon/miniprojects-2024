@@ -37,3 +37,16 @@ IoT 개발자 미니프로젝트 리포지토리
     5. RPio GPIO, IoT디바이스 연결(카메라, HDT센서, RGB LED, ...)
     6. PC(Server) 데이터 수신 C# 프로그래밍
     8. 모니터링 앱 개발(수신 및 송신)
+
+## 3일차
+- 라즈베리파이 셋팅
+    1. RPi 기본 구성 - RPi + MicroSD + Power
+    2. RPi 기본 셋팅
+        [X]SUDO DS 최신 업그레이드
+        - 한글화
+        - 키보드 변경
+        [X] 화면사이즈 변경(RealVNC사용)
+        - Pi Apps 앱 설치 도우미 앱
+        - Github Desktop, VS Code
+        - 네트워크 확인
+        - RealVNC Server 자동실행 설정
