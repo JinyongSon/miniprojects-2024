@@ -16,20 +16,20 @@ dht_pin = 18
 dev_id = 'PKNU81'
 loop_num = 0
 
+## 초기화 시작
 def onConnect(client, userdata, flags, reason_code, properties):
     print(f'연결성공 : {reason_code}')
     client.subscribe('pknu/rcv/')
 
 def onMessage(client, userdata, msg):
-    print(f'{msg.topic} + {msg.payload}')
+    print(f'{msg.topic} +{msg.payload}')
 
 GPIO.cleanup()
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(red_pin, GPIO.OUT)
 GPIO.setup(green_pin, GPIO.OUT) # LED 켜는 것
-GPIO.setup(dht_pin, GPIO.IN) # 온습도값을 RPi에서 받는 것
+GPIO.setup(dht_pin, GPIO.IN)
 dhtDevice = adafruit_dht.DHT11(board.D18) # 중요!!
-
 ## 초기화 끝
 
 ## 실행시작
