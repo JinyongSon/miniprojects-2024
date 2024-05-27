@@ -79,7 +79,7 @@ IoT 개발자 미니프로젝트 리포지토리
         - R - GPIO4 연결
         - B - GPIO5 연결
         - G - GPIO6 연결
-    - [-] 서보모터
+    - [ ] 서보모터
 
 ## 5일차
 - 라즈베리파이 IoT장비 설치
@@ -111,10 +111,17 @@ IoT 개발자 미니프로젝트 리포지토리
     - [x] Mosquitto Broker 설치
         - mosquitto.conf : listener 1883 0.0.0.0, allow_anonymous true
         - 방화벽 인바운드 열기
-    [ ] RPi : paho-mqtt 패키지 설치, 송신(publisher)
-    - Win : MQTT.NET Nuget패키지 설치, 수신(subcriber)
+    - [x] RPi : paho-mqtt 패키지 설치, 송신(publisher)
+    - [ ] Win/C# : MQTT Nuget패키지 설치, 수신(subcriber)
+        - M2Mqtt : 가볍게 쓸 수 있음. 업데이트가 안됨.
+        - MQTTNet : MS에서 개발, 무겁다. 최신까지 업데이트 잘됨
 
-
+## 9일차 
+- 스마트홈 연동 클래스 미니프로젝트
+    - [ ] WPF 수신 MQTT데이터 DB로 저장
+    - [ ] MQTT데이터 실시간 모니터링
+    - [ ] MQTT로 RPi 제어(LED제어)
+    - [ ] WPF MQTT데이터 히스토리 확인
 
 ## 프로젝트 진행 상황
 
