@@ -24,52 +24,66 @@ IoT 개발자 미니프로젝트 리포지토리
 
 ## 2일차
 - 미니프로젝트
-    - 프로젝트 문서
+    - 프로젝트 문서(금요일 다시)
+    - Notion 팀 프로젝트 템플릿 활용
     - UI/UX디자인 툴 설명
-    - Notion ...
-    - 라즈베리파이 리셋팅, 네트워크 설정, VNC(OS UI작업)
+        - https://ovenapp.io/ 카카오 
+        - https://www.figma.com/ 피그마
+        - https://app.moqups.com/ 목업디자인 사이트
+    - 프리젠테이션
+        - https://www.miricanvas.com/ko 미리캔버스 활용 추천
+    - 라즈베리파이(RPi) 리셋팅, 네트워크 설정, VNC(OS UI작업)
 
 - 스마트홈 연동 클래스 미니프로젝트
     1. 요구사항 정의, 기능명세, 일정정리
     2. UI/UX 디자인
+        - RPi는 디자인 없음(콘솔)
+        - 데이터 수신앱
+        - 모니터링 앱
     3. DB설계
     4. RPi 셋팅(Network)
-    5. RPio GPIO, IoT디바이스 연결(카메라, HDT센서, RGB LED, ...)
-    6. PC(Server) 데이터 수신 C# 프로그래밍
+    5. RPi GPIO, IoT디바이스 연결(카메라, HDT센서, RGB LED, ...)
+    6. RPi 데이터 전송 파이썬 프로그래밍
+    7. PC(Server) 데이터 수신 C# 프로그래밍
     8. 모니터링 앱 개발(수신 및 송신)
 
 ## 3일차
-- 라즈베리파이 셋팅
+- 미니프로젝트
+    - 실무 프로젝트 문서
+    - Jira 사용법 
+    - 조별로 진행
+
+- 라즈베리파이 셋팅 
     1. RPi 기본 구성 - RPi + MicroSD + Power
     2. RPi 기본 셋팅
-        [x] 최신 업그레이드
-        [x] 한글화
-        [x] 키보드 변경
-        [x] 화면사이즈 변경(RealVNC)
-        [x] Pi Apps 앱 설치 도우미 앱
-        [x] Github Desktop, VS Code
-        [x] 네트워크 확인
-        - RealVNC Server 자동실행 설정
+        - [x] 최신 업그레이드
+        - [x] 한글화
+        - [x] 키보드 변경
+        - [x] 화면사이즈 변경(RealVNC사용)
+        - [x] Pi Apps 앱설치 도우미 앱
+        - [x] Github Desktop, VS Code
+        - [x] 네트워크 확인
+        - [x] RealVNC Server 자동실행 설정
 
 - 스마트홈 연동 클래스 미니프로젝트
     - RPi 셋팅... 진행
 
 ## 4일차
 - 라즈베리파이 IoT장비 설치
-    [x] 라즈베리파이 카메라
-    [x] GPIO HAT
-    [x] 브레드보드와 연결
-    [] DHT11 센서
-    [x] RGB LED 모듈
+    - [x] 라즈베리파이 카메라
+    - [x] GPIO HAT
+    - [x] 브레드보드와 연결
+    - [ ] DHT11 센서
+    - [x] RGB LED 모듈
         - V - 5V 연결
-        - R - GPI04 연결
-        - B - GPI05 연결
-        - G - GPI06 연결
-    [-] 서보모터
+        - R - GPIO4 연결
+        - B - GPIO5 연결
+        - G - GPIO6 연결
+    - [-] 서보모터
 
 ## 5일차
 - 라즈베리파이 IoT장비 설치
-    [x] DHT11 센서
+    - [x] DHT11 센서
         - GND - GND 8개중 아무대나 연결
         - VCC - 5V 연결
         - S - GPIO18 연결
@@ -81,23 +95,23 @@ IoT 개발자 미니프로젝트 리포지토리
 
 ## 6, 7일차
 - 네트워크 대공사
-    [x] 개인공유기, PC, 라즈베리팡
-
+    - [x] 개인공유기, PC, 라즈베리파이
+    
 - 스마트홈 연동 클래스 미니프로젝트
-    - 온습도 센서, RGB LED
-    - RPI <--> Windows 통신(MQTT)
+    - 온습도 센서, RGB LED 
+    - RPi <--> Windows 통신(MQTT)
     - WPF 모니터링 앱
 
 - IoT 기기간 통신방법
-    - Modbus - 시리얼통신으로 데이터 전송(완전구식)
+    - Modbus - 시리얼통신으로 데이터 전송(완전 구식)
     - OPC UA - Modbus통신 불편한점 개선(아주 복잡)
     - **MQTT** - 가장 편리! AWS IoT, Azure IoT 클라우드 산업계표준으로 사용
 
 - MQTT 통신
-    [x] Mosquitto Broker 설치
+    - [x] Mosquitto Broker 설치
         - mosquitto.conf : listener 1883 0.0.0.0, allow_anonymous true
         - 방화벽 인바운드 열기
-    [] RPi : paho-mqtt 패키지 설치, 송신(publisher)
+    [ ] RPi : paho-mqtt 패키지 설치, 송신(publisher)
     - Win : MQTT.NET Nuget패키지 설치, 수신(subcriber)
 
 
