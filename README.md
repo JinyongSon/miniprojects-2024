@@ -147,7 +147,7 @@ IoT 개발자 미니프로젝트 리포지토리
     - AI 이미지 인식 기술을 이용해 다양한 색상의 상자를 판별
     - 서보모터, 컨베이어벨트, RC카를 제어하여 자동화된 물류 시스템을 구현
 
-    ![IoT프로젝트](https://raw.githubusercontent.com/JEONGWOO0705/mini_projects_2024/main/image/mp002.png)
+    ![IoT프로젝트](https://raw.githubusercontent.com/JinyongSon/mini_projects_2024/main/image/mp002.png)
 
 
 
