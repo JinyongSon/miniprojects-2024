@@ -132,11 +132,11 @@ IoT 개발자 미니프로젝트 리포지토리
         - LiveChart2는 차후에 다시, 현재는 OxyPlot 차트 대체
     - 실행결과
 
-        ![스마트홈1](https://raw.githubusercontent.com/JinyongSon/mini_projects_2024/main/images/mp002.png)
+        ![스마트홈1](https://raw.githubusercontent.com/JinyongSon/miniprojects_2024/main/images/mp002.png)
 
-        ![스마트홈1](https://raw.githubusercontent.com/JinyongSon/mini_projects_2024/main/images/mp003.png)
+        ![스마트홈1](https://raw.githubusercontent.com/JinyongSon/miniprojects_2024/main/images/mp003.png)
         
-        ![스마트홈1](https://raw.githubusercontent.com/JinyongSon/mini_projects_2024/main/images/mp004.png)
+        ![스마트홈1](https://raw.githubusercontent.com/JinyongSon/miniprojects_2024/main/images/mp004.png)
 
 ## 프로젝트 진행 상황
 
@@ -147,7 +147,7 @@ IoT 개발자 미니프로젝트 리포지토리
     - AI 이미지 인식 기술을 이용해 다양한 색상의 상자를 판별
     - 서보모터, 컨베이어벨트, RC카를 제어하여 자동화된 물류 시스템을 구현
 
-    ![IoT프로젝트](https://raw.githubusercontent.com/JinyongSon/mini_projects_2024/main/image/mp002.png)
+    ![IoT프로젝트](https://raw.githubusercontent.com/JinyongSon/miniprojects_2024/main/images/mp002.png)
 
 
 
